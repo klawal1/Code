@@ -1,7 +1,5 @@
 package automationFramework;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -61,31 +59,7 @@ public class FirstTestCase {
 			System.out.println("Navigation to page NOT OK");
 
 		}
-		
-	
-/*		
-		String pageTitle = driver.getTitle();
-		int pageTitleLength = driver.getTitle().length();
-		//String pageTitle = driver.getCurrentUrl();
-		//String pageTitle = driver.getCurrentUrl();
 
-        // Print a Log In message to the screen
-        System.out.println("Successfully opened the website www.uptake.com/approach");
-        System.out.println(pageCurrentUrl);
-        System.out.println(firstPageUrl);
-        System.out.println(pageTitle);
-        System.out.println(pageTitleLength);
-        
-        if(pageCurrentUrl.equals(firstPageUrl)){
-        	System.out.println(" I am at the right page");
-        }
-		//Wait for 5 Sec
-		Thread.sleep(1000);
-		
-        // Close the driver
-        //driver.quit();
-		driver.close();
-*/
 		//Wait for a few Sec
 		Thread.sleep(10000);
 		
